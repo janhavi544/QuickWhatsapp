@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:onClick="sendButtonClicked"
     tools:context=".MainActivity">
 
     <TextView
@@ -104,6 +105,7 @@
         android:layout_height="57dp"
         android:layout_marginTop="15dp"
         android:backgroundTint="#18A813"
+        android:onClick="sendButtonClicked"
         android:text="SEnd"
         android:textSize="25dp"
         app:layout_constraintEnd_toEndOf="parent"
