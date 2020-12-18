@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
         android:gravity="left"
+        android:textColor="#0C0606"
 
         android:text="Enter WhatsApp Number"
         android:textSize="25dp"
@@ -30,6 +31,7 @@
         android:gravity="left"
         android:text="Enter WhatsApp Message"
         android:textSize="25dp"
+        android:textColor="#0C0606"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -42,6 +44,7 @@
         android:layout_marginTop="30dp"
         android:gravity="center"
         android:text="Send WhatsApp Message without saving the contact."
+        android:textColor="#0C0606"
         android:textSize="25dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -56,6 +59,7 @@
         android:gravity="center"
         android:text="First,select country code and enter WhatsApp number to send WhatsApp Message"
         android:textSize="20dp"
+        android:textColor="#0C0606"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView1" />
